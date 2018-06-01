@@ -14,6 +14,13 @@ hyperkit driver, so you will need to start it yourself; For example:
 
 ```Shell
 minikube start --vm-driver kvm2
+
+# Alternatively: Run without a VM.
+# Requires sudo access, and will override kubeadm and kubelet on your system.
+# Minikube also has suitable warnings about file ownership on ~/.kube and
+# ~/.minikube
+
+sudo $(which minikube) start --vm-driver none
 ```
 
 ... Or the supported hypervisor you've installed;
