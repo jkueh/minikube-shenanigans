@@ -1,4 +1,5 @@
-# Jordan's Minikube Bootstrapping Tool™
+# Jordan's Local Kubernetes Guide
+*Powered by Minikube*
 
 Minikube allows you to create a simple Kubernetes cluster on your local machine,
 to allow you to deploy applications with `kubectl`.
